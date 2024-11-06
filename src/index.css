@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.skew{
+    transform: skew(-20deg);
+}
+
+.btn-gradient-border {
+    color: rgb(256, 256, 256);
+    border: 2px double transparent;
+        background-image: linear-gradient(rgb(13, 14, 33), rgb(13, 14, 33)), radial-gradient(circle at left top, rgb(1, 110, 218), 
+rgb(217, 0,192));
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+}
+.btn-glow:hover {
+    box-shadow: rgba(111, 76, 255, 0.7) 1px 1px 20px 1px;
+}
+
+.note-btn{
+    background: radial-gradient(circle at top, #a085dd , #1c47b3);
+}
+.note-btn:hover{
+    background: radial-gradient(circle at top, #866dbf , #2147a8);
+}
