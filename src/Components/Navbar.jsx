@@ -5,7 +5,7 @@ import { Links } from '../Constent'
 
 const Navbar = () => {
   return (
-    <div className={`flex justify-center flex-1 sm:space-x-24 space-x-5 text-2xl bg-black`}>
+    <div className={`flex justify-center flex-1 sm:space-x-24 space-x-5 text-2xl bg-black my-2`}>
       {
         Links.map(
           (link,index)=>{
